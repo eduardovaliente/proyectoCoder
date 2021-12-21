@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----Index----*/
+
+.header{
+    margin-bottom: 0.5px;
+    height: 85px; 
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    height: 95px; 
+    margin-left: 10px;
+}
+
+.header__item{
+    display: flex;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.header__nav{
+    font-size: 1rem;
+}
+
+.header__item--textDecoration{
+    text-decoration: none;
+    color:#c2262a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header__item--textDecoration:hover{
+    background-color:#c2262a;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.hero{
+    height: 100vh;
+    background-image:url(../assets/obrero_casco.jpg); 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    grid-area: hero;
+    }
+
+.hero__titulo{
+    padding-top: 100px;
+    padding-left: 90px;
+    font-size: 3.5rem;
+    font-family: sans-serif;
+    color: #c2262a;
+}
+
+.hero__subtitulo{
+    margin-left: 140px;
+    font-size: 2rem;
+    width: fit-content;
+    background-color: #696969;
+    color: #ffff;
+}
+
+.btn--hero{
+    margin-left: 257px;
+}
+
+.videoTexto{
+    grid-area: videoTexto;
+    padding: 20px;
+    height: 400px;
+    display:flex
+}
+
+.videoTexto__texto{
+    display: flex;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.videoTexto__video{
+    align-self: center;
+}
+
+.footer{
+    background-color: #031b2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-area: footer;
+}
+
+.footer__h3{
+    color: #90a7ac;
+    font-size: 0.8rem;
+}
+
+.footer__contenedorLogo{
+    width: 15%;
+}
+
+.footer__logo{
+    width: 100%;
+}
+
+.footer__contenedorContacto{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.footer__redes{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.footer__contenedorListas{
+    list-style: none;
+    display: inline-flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.footer__btnContacto{
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #c2262a;
+    width: fit-content;
+    padding: 3px;
+    color: white;
+    font-size: 0.8rem;
+    box-shadow:0px 1px 0.5px black;
+}
+
+.footer__btnContacto:hover{
+    background-color:#ffffff;
+    color: #c2262a;
+}
+
+/*----¿Quiénes sómos?----*/
+
+.mainQuienesSomos{
+    overflow: hidden;
+}
+
+.header__quienesSomos{
+    grid-area: nav;
+}
+
+.quienesSomos{
+    background-color: #c2262a;
+    margin-bottom: 15px;
+    grid-area: quienesSomos;
+}
+
+.quienesSomos__divBanner{
+    height: 280px;
+    background-image:url(../assets/obreros_panel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.quienesSomos__title{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.quienesSomos__parrafo{
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;    
+}
+
+.misionVision{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: misionVision;
+}
+
+.misionVision__title{
+    text-align: center;
+}
+
+.misionVision__parrafo{
+    text-align: center;
+}
+
+.gridContainer__quienesSomos{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: "nav"
+                         "quienesSomos"
+                         "misionVision"
+                         "footer";
+}
+
+.footer__quienesSomos{
+    grid-area: footer;
+}
+
+/*----Trabajos----*/
+
+.trabajos{
+    background-color: #c2262a;
+}
+
+.trabajos__divBanner{
+    height: 280px;
+    background-image:url(../assets/cubre_orejas.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.trabajos__title{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+/*----Clientes----*/
+
+.clientes{
+    background-color: #c2262a;
+}
+
+.clientes__divBanner{
+    height: 280px;
+    background-image:url(../assets/obreros_calle.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.clientes__title{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+/* Contacto*/
+
+.contacto{
+    background-color: #c2262a;
+}
+
+.contacto__divBanner{
+    height: 280px;
+    background-image:url(../assets/pc_cafe.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contacto__title{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+.contacto__parrafo{
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.contacto__formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*Tarjeta final*/
+
+.tarjetaFinal{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500PX;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 5px 1px black;
+    margin-bottom: 15px;
+    }
+
+.tarjetaFinal__img{
+    width: 170px;
+}
+
+.tarjetaFinal__parrafo{
+    color: black;
+    align-self: center;
+    text-align: center;
+}
+
+/*Botones*/
+
+.btn{
+    border-radius: 16px;
+    display: inline-block;
+    padding: 11px;
+    text-decoration: none;
+    color: white;
+    background-color:#c2262a;
+    width: fit-content;
+    box-shadow: 0px 2px 1px rgb(73, 21, 21);
+    font-size: 1.3rem;
+    }
+
+.btn:hover{
+    background-color:#ffffff;
+    color: #c2262a;
+} 
+
+.menosIndex{
+    align-self: center;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+.gridContainer__index{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "nav" 
+                         "hero" 
+                         "videoTexto" 
+                         "footer";
+}
+
+/* -----------Media Queries--------*/
+
+@media screen and (max-width: 425px) {
+
+    /*------Index--------*/
+
+    .header{
+        margin-bottom: 0.5px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        height: auto;
+        flex-direction: column;    
+    }
+
+    .header__logo{
+        height: 95px;
+    }
+
+    .header__nav{
+        font-size: 0.7rem;
+    }
+
+    .hero{
+        background-image: url(../assets/obrero_casco.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        grid-area: hero;
+        width: 100%;
+    }
+
+    .hero__titulo{
+        padding-top: 100px;
+        padding-left: 0px;
+        font-size: 3.5rem;
+        font-family: sans-serif;
+        color: #c2262a;
+        text-align: center;
+    }
+
+    .hero__subtitulo{
+        font-size: 2rem;
+        width: fit-content;
+        background-color: #696969;
+        color: #ffff;
+        align-self: center;
+        margin-left: 0px;
+    }
+
+    .btn--hero{
+        border-radius: 16px;
+        display: inline-block;
+        padding: 11px;
+        text-decoration: none;
+        color: white;
+        background-color: #c2262a;
+        width: fit-content;
+        box-shadow: 0px 2px 1px rgb(73 21 21);
+        font-size: 1.3rem;
+        align-self: center;
+        margin-bottom: 15px;
+        margin-left: 0px;
+    }
+
+    .videoTexto{
+        grid-area: videoTexto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        row-gap: 30px;
+        height: auto;
+    }
+
+    .videoTexto__video{
+        align-self: center;
+        width: auto;
+    }
+
+    .videoTexto__texto{
+        display: flex;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-size: 1.3rem;
+        align-items: center; 
+    }
+
+    .footer{
+        background-color: #031b2e;
+        display: flex;
+        grid-area: footer;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        row-gap: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .footer__contenedorLogo{
+        width: 40%;
+    }
+
+    .footer__logo{
+        width: 100%;
+    }
+
+    .footer__contenedorContacto{
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    .footer__btnContacto{
+        border-radius: 5px;
+        text-decoration: none;
+        background-color: #c2262a;
+        width: fit-content;
+        padding: 3px;
+        color: white;
+        font-size: 0.8rem;
+        box-shadow: 0px 1px 0.5px black;
+        align-self: center;
+    }
+
+    .footer__redes{
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+        align-self: center;
+    }
+
+    .footer__h3{
+        color: #90a7ac;
+        font-size: 0.8rem;
+    }
+
+    .footer__contenedorListas{
+        list-style: none;
+        display: inline-flex;
+        gap: 5px;
+        justify-content: center;
+    }
+
+/*---------Quienes somos-------*/
+
+    .gridContainer__quienesSomos {
+        display: grid;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas:
+            "nav"
+            "quienesSomos"
+            "misionVision"
+            "footer";
+    }
+
+    .header__quienesSomos {
+        grid-area: nav;
+    }
+
+    .quienesSomos__divBanner{
+       height: px; 
+    }
+
+    .quienesSomos__title{
+        font-size: rem;
+    }
+
+    .quienesSomos__parrafo{
+        font-size: rem;
+    }
+
+    .misionVision{
+        flex-direction: column;
+    }
+
+    .tarjetaFinal{
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+    }
+}

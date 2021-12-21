@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e7e19778f2.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="bodyGeneral">
+    <header class="header">
+        <img class="header__logo" src="../assets/logo.png" alt="Logo">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__item--textDecoration" href="../index.html">Inicio</a></li>
+                <li class="header__item"><a class="header__item--textDecoration" href="quienes_somos.html">Quiénes somos</a></li>
+                <li class="header__item"><a class="header__item--textDecoration" href="trabajos.html">Trabajos</a></li>
+                <li class="header__item"><a class="header__item--textDecoration" href="clientes.html">Clientes</a></li>
+                <li class="header__item"><a class="header__item--textDecoration" href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contacto">
+           <div class="contacto__divBanner">
+
+           </div>
+            <h1 class="contacto__title">Contacto</h1>
+            <p class="contacto__parrafo">Déjenos su consulta, nos estaremos comunicando con usted a la brevedad.</p>
+        </section>
+        <section class="contacto__formulario">
+            <form action="#" method="get">
+                <div>
+                    <label for="name">Nombre</label>
+                    <input type="text" name="user_name" id="name" placeholder="Introduzca su nombre">
+                </div>
+                <div>
+                    <label for="lastname">Apellido</label>
+                    <input type="text" name="user_lastname" id="lastname" placeholder="Introduzca su apellido">
+                </div>
+                <div>
+                    <label for="phone_number">Teléfono</label>
+                    <input type="number" name="user_phone_number" id="phone_number" placeholder="Introdusca su teléfono">
+                </div>
+                <div>
+                    <label for="mail">Correo electrónico</label>
+                    <input type="email" name="user_mail" id="mail" placeholder="Introduzca su Email">
+                </div>
+                <div>
+                    <label for="query">Consulta</label> <br>
+                    <textarea name="user_query" id="query" cols="30" rows="10" placeholder="Escriba su consulta"></textarea>
+                </div>
+                <input type="submit" value="Enviar consulta">
+                <input type="reset" value="Borrar campos">
+                <input type="button" value="No hace nada">
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__contenedorLogo">
+            <img src="../assets/logo.png" alt="logo Ima construcciones" class="footer__logo">
+        </div>
+        <div class="footer__contenedorContacto">
+            <h3 class="footer__h3"> <i class="fas fa-mobile-alt"></i> &#160 099 554 306</h3>
+            <h3 class="footer__h3"> <i class="far fa-envelope"></i> &#160 IMACONSTRUCCIONES18@GMAIL.COM</h3>
+            <h3 class="footer__h3"> <i class="fas fa-map-marker-alt"></i> &#160 Trinidad-Flores-URUGUAY</h3>
+            <a href="./pages/contacto.html" class="footer__btnContacto">CONTACTO</a>
+        </div>
+        <div class="footer__redes">
+            <h3 class="footer__h3">Síganos en nuestras redes</h3>
+            <ul class="footer__contenedorListas">
+                <li><a class="footer__iconosDeRedes instagram" href="https://www.instagram.com/?hl=es"><img src="../assets/logo_instagram.png" width="30" height="30" alt="logo"></a></li>
+                <li><a class="footer__iconosDeRedes facebook" href="https://es-la.facebook.com/"><img src="../assets/logo_facebook.png" width="30" height="30" alt="Logo"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
