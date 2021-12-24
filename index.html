@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- aos -->
     <script src="https://kit.fontawesome.com/e7e19778f2.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,13 +25,13 @@
         </header>
         <main>
             <section class="hero">
-                <h1 class="hero__titulo">IMA construcciones</h1>
-                <p class="hero__subtitulo">Proyecto y desarrollo de obra</p> 
-                <a class="btn btn--hero" href="./pages/quienes_somos.html">Conocenos</a>
+                <h1 data-aos="zoom-in-up" class="hero__titulo">IMA construcciones</h1>
+                <p data-aos="zoom-in-up" class="hero__subtitulo">Proyecto y desarrollo de obra</p> 
+                <a data-aos="zoom-in-up" class="btn btn--hero" href="./pages/quienes_somos.html">Conocenos</a>
             </section>
             <section class="videoTexto">
-                <iframe class="videoTexto__video" width="653" height="280" src="https://www.youtube.com/embed/4lSic8IZKZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Lo siento, tu navegador no soporta video</iframe>
-                <article  class="videoTexto__texto">
+                <iframe data-aos="zoom-in" class="videoTexto__video" width="653" height="280" src="https://www.youtube.com/embed/4lSic8IZKZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Lo siento, tu navegador no soporta video</iframe>
+                <article data-aos="zoom-in"  class="videoTexto__texto">
                     <p>Somos una empresa de Trinidad Flores dedicada a trabajos de obra civil, construcción convencional, yeso, isopanel, electricidad, sanitaria, pintura y reformas. <br> <br> En IMA construcciones llevamos años perfeccionando los procesos e innovando constantemente, para ofrecer trabajos de altísima calidad, a la medida de cada cliente.</p>
                 </article>
             </section>
@@ -54,5 +55,9 @@
             </div>
         </footer>   
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> <!-- JS aos -->
+    <script>
+      AOS.init();
+    </script>  
 </body>
 </html>
