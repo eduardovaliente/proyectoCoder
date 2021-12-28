@@ -6,41 +6,19 @@
 
 /*----Index----*/
 
-.header{
-    margin-bottom: 0.5px;
-    height: 85px; 
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header__logo{
+.nav__logo{
     height: 95px; 
     margin-left: 10px;
 }
 
-.header__item{
-    display: flex;
-    display: inline-block;
-    padding-right: 10px;
+#nav__items{
+    color: #c2262a;
 }
 
-.header__nav{
-    font-size: 1rem;
-}
-
-.header__item--textDecoration{
-    text-decoration: none;
-    color:#c2262a;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.header__item--textDecoration:hover{
-    background-color:#c2262a;
+#nav__items:hover{
+    background-color: #c2262a;
     color: #ffffff;
-    border-radius: 5px;
-    padding: 2px;
+    border-radius: 8%;
 }
 
 .hero{
@@ -55,11 +33,10 @@
     }
 
 .hero__titulo{
-    padding-top: 100px;
+    margin-top: 100px;
     font-size: 5rem;
     font-family: sans-serif;
     color: #c2262a;
-
 }
 
 .hero__subtitulo{
@@ -253,7 +230,7 @@
     text-align: center;
 }
 
-/* Contacto*/
+/*Contacto*/
 
 .contacto{
     background-color: #c2262a;
@@ -348,16 +325,8 @@
 
     /*------Index--------*/
 
-    .header{
-        height: auto;
-        flex-direction: column;    
-    }
-
-    .header__nav{
-        font-size: 0.7rem;
-    }
-
     .hero__titulo{
+        margin-top: auto;
         padding-left: 0px;
         text-align: center;
     }
@@ -368,6 +337,7 @@
     }
 
     .btn--hero{
+        margin-bottom: 20px;
         align-self: center;
         margin-left: 0px;
     }
