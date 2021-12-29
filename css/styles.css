@@ -23,7 +23,7 @@
 
 .hero{
     height: 100vh;
-    background-image:url(../assets/obrero_casco.jpg); 
+    background-image:url(../assets/constructor_taladrando_pared.jpg); 
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,6 @@
 .videoTexto{
     grid-area: videoTexto;
     padding: 20px;
-    height: 400px;
     display:flex;
     column-gap: 30px;
 }
@@ -60,13 +59,13 @@
     color: black;
     font-family: sans-serif;
     text-align: center;
-    font-size: 1.2rem;
-    align-items: center;
-    width: 70%;
+    margin: auto;
 }
 
 .videoTexto__video{
     align-self: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .footer{
@@ -139,7 +138,6 @@
 }
 
 .quienesSomos{
-    background-color: #c2262a;
     margin-bottom: 15px;
     grid-area: quienesSomos;
 }
@@ -152,25 +150,36 @@
 }
 
 .quienesSomos__title{
-    color: white;
     text-align: center;
-    font-size: 2.5rem;
+    margin-bottom: 30px;
 }
 
 .quienesSomos__parrafo{
-    color: white;
-    text-align: center;
-    font-size: 1.1rem;    
+    text-align: center;  
 }
 
-.misionVision{
-    height: 200px;
-    display: flex;
-    justify-content: space-around;
+.iconosMisionVision{
+    width: 50px;
+    text-align: center;
+    align-self: center;
+}
+
+.hr{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*.misionVision{
+height: 200px;
+display: flex;
+justify-content: space-around;
     align-items: center;
     grid-area: misionVision;
 }
-
+*/
 .misionVision__title{
     text-align: center;
 }
@@ -304,6 +313,12 @@
     color: #c2262a;
 } 
 
+.btn--videoTexto{
+    font-size: small;
+    border-radius: 8px;
+    padding: 5px;
+}
+
 .menosIndex{
     align-self: center;
     padding: 8px;
@@ -349,10 +364,6 @@
         align-items: center;
     }
 
-    .videoTexto__video{
-        width: auto;
-    }
-
     .footer{
         flex-direction: column;
         height: auto;
@@ -374,14 +385,6 @@
     }
 
 /*---------Quienes somos-------*/
-
-    .quienesSomos__title{
-        font-size: 1.5rem;
-    }
-
-    .quienesSomos__parrafo{
-        font-size: 1rem;
-    }
 
     .misionVision{
         flex-direction: column;
