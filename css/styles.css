@@ -28,7 +28,6 @@
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-    grid-area: hero;
     align-items: center;
     }
 
@@ -48,7 +47,6 @@
 }
 
 .videoTexto{
-    grid-area: videoTexto;
     padding: 20px;
     display:flex;
     column-gap: 30px;
@@ -76,7 +74,6 @@
     height: 150px;
     padding-left: 20px;
     padding-right: 20px;
-    grid-area: footer;
 }
 
 .footer__h3{
@@ -315,36 +312,47 @@
     font-size: 1rem;
 }
 
-.gridContainer__index{
-    display: grid;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas: "nav" 
-                         "hero" 
-                         "videoTexto" 
-                         "footer";
-}
-
 /* -----------Media Queries--------*/
 
 @media screen and (max-width: 425px) {
 
     /*------Index--------*/
 
+    .nav__logo{
+        height: 45px;
+    }
+
+    .hamburguesa{
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .hero{
+        height: auto;
+        row-gap: 15px;
+    }
+    
     .hero__titulo{
-        margin-top: auto;
+        margin-top: 30px;
         padding-left: 0px;
         text-align: center;
+        font-size: 2.7rem;
+        color: #ffffff;
     }
 
     .hero__subtitulo{
         align-self: center;
         margin-left: 0px;
+        font-size: 1.1rem;
+        background-color: rgba(255, 255 255, 0.7);
     }
 
     .btn--hero{
         margin-bottom: 20px;
         align-self: center;
         margin-left: 0px;
+        font-size: 0.8rem;
+        padding: 6px;
     }
 
     .videoTexto{
@@ -383,6 +391,11 @@
     .tarjetaFinal{
         flex-direction: column;
         align-items: center;
-        width: fit-content;
+        width: 70%;
+    }
+
+    .menosIndex{
+        font-size: 0.9rem;
+        margin-bottom: 15px;
     }
 }
