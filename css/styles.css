@@ -161,6 +161,10 @@
     text-align: center;  
 }
 
+.contenedorRow{
+    row-gap: 10px;
+}
+
 .iconosMisionVision{
     width: 50px;
     text-align: center;
@@ -175,14 +179,6 @@
     margin-bottom: 50px;
 }
 
-/*.misionVision{
-height: 200px;
-display: flex;
-justify-content: space-around;
-    align-items: center;
-    grid-area: misionVision;
-}
-*/
 .misionVision__title{
     text-align: center;
 }
@@ -206,10 +202,6 @@ justify-content: space-around;
 
 /*----Trabajos----*/
 
-.trabajos{
-
-}
-
 .trabajos__divBanner{
     height: 280px;
     background-image:url(../assets/cubre_orejas.jpg);
@@ -226,10 +218,6 @@ justify-content: space-around;
 
 /*----Clientes----*/
 
-.clientes{
-    background-color: #c2262a;
-}
-
 .clientes__divBanner{
     height: 280px;
     background-image:url(../assets/obreros_calle.jpg);
@@ -238,16 +226,13 @@ justify-content: space-around;
 }
 
 .clientes__title{
-    font-size: 2.5rem;
     color: white;
     text-align: center;
+    background-color: #c2262a;
+    padding-bottom: 10px;
 }
 
 /*Contacto*/
-
-.contacto{
-    background-color: #c2262a;
-}
 
 .contacto__divBanner{
     height: 280px;
@@ -257,15 +242,14 @@ justify-content: space-around;
 }
 
 .contacto__title{
-    font-size: 2.5rem;
     color: white;
     text-align: center;
+    background-color: #c2262a;
+    padding-bottom: 10px;
 }
 
 .contacto__parrafo{
-    color: white;
     text-align: center;
-    font-size: 1.1rem;
 }
 
 .contacto__formulario{
