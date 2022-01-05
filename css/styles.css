@@ -237,6 +237,11 @@
     text-align: center;
     background-color: #c2262a;
     padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.pClientes__p{
+    text-align: center;
 }
 
 .containerClientes{
@@ -305,8 +310,7 @@
 }
 
 .tarjetaFinal:hover{
-    box-shadow: 0px 0px 5px 1px #517293;
-    background-color: #c2262b1c;
+    background-color: #a79e9e9a;
 }
 
 /*----Botones----*/
