@@ -47,33 +47,34 @@
             <h1 class="contacto__title">Contacto</h1>
             <p class="contacto__parrafo">Déjenos su consulta, nos estaremos comunicando con usted a la brevedad.</p>
         </section>
-        <section class="contacto__formulario">
-            <form action="#" method="get">
-                <div>
-                    <label for="name">Nombre</label>
-                    <input type="text" name="user_name" id="name" placeholder="Introduzca su nombre">
-                </div>
-                <div>
-                    <label for="lastname">Apellido</label>
-                    <input type="text" name="user_lastname" id="lastname" placeholder="Introduzca su apellido">
-                </div>
-                <div>
-                    <label for="phone_number">Teléfono</label>
-                    <input type="number" name="user_phone_number" id="phone_number" placeholder="Introdusca su teléfono">
-                </div>
-                <div>
-                    <label for="mail">Correo electrónico</label>
-                    <input type="email" name="user_mail" id="mail" placeholder="Introduzca su Email">
-                </div>
-                <div>
-                    <label for="query">Consulta</label> <br>
-                    <textarea name="user_query" id="query" cols="30" rows="10" placeholder="Escriba su consulta"></textarea>
-                </div>
-                <input type="submit" value="Enviar consulta">
-                <input type="reset" value="Borrar campos">
-                <input type="button" value="No hace nada">
-            </form>
-        </section>
+        <div class="container">
+          <section class="contacto__formulario">
+              <form action="#" method="get">
+                  <div class="mb-3">
+                      <label for="name" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" name="user_name" id="name" placeholder="Introduzca su nombre">
+                  </div>
+                  <div class="mb-3">
+                      <label for="lastname" class="form-label">Apellido</label>
+                      <input type="text" class="form-control" name="user_lastname" id="lastname" placeholder="Introduzca su apellido">
+                  </div>
+                  <div class="mb-3">
+                      <label for="phone_number" class="form-label">Teléfono</label>
+                      <input type="number" class="form-control" name="user_phone_number" id="phone_number" placeholder="Introdusca su teléfono">
+                  </div>
+                  <div class="mb-3">
+                      <label for="mail" class="form-label">Correo electrónico</label>
+                      <input type="email" class="form-control" name="user_mail" id="mail" placeholder="Introduzca su Email">
+                  </div>
+                  <div class="mb-3">
+                      <label for="query" class="form-label">Consulta</label> <br>
+                      <textarea name="user_query" class="form-control" id="query" cols="30" rows="10" placeholder="Escriba su consulta"></textarea>
+                  </div>
+                  <input type="submit" class="btn menosIndex" value="Enviar consulta">
+                  <input type="reset" class="btn menosIndex" value="Borrar campos">
+              </form>
+          </section>
+        </div>
     </main>
     <footer class="footer">
         <div class="footer__contenedorLogo">

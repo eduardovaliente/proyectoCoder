@@ -276,6 +276,9 @@
 
 .contacto__parrafo{
     text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
 }
 
 .contacto__formulario{
@@ -283,6 +286,13 @@
     justify-content: center;
     margin-top: 15px;
     margin-bottom: 15px;
+    background-image: url(../assets/balizas.jpg);
+    background-size: cover;
+    padding-bottom: 15px;
+}
+
+.form-label{
+    color:#ffffff;
 }
 
 /*----Tarjeta final----*/
