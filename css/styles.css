@@ -234,6 +234,15 @@
     padding-bottom: 10px;
 }
 
+.carruselContenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.carrusel{
+    width: 70%;
+    margin-bottom: 20px;
+}
 /*----Clientes----*/
 
 .clientes__divBanner{
