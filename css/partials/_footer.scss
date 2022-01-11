@@ -1,5 +1,7 @@
+@import "./vars";
+
 .footer{
-    background-color: #031b2e;
+    background-color: $bg-color-footer;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,7 +44,7 @@
     &__btnContacto{
         border-radius: 5px;
         text-decoration: none;
-        background-color: #c2262a;
+        background-color: $bordo;
         width: fit-content;
         padding: 3px;
         color: white;
@@ -51,7 +53,7 @@
 
         &:hover{
             background-color:#ffffff;
-            color: #c2262a;
+            color: $bordo;
         }
     }
 }
