@@ -1,1 +1,175 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav__logo {
+  height: 95px;
+  margin-left: 10px;
+}
+
+#nav__items {
+  color: #c2262a;
+}
+
+#nav__items:hover {
+  background-color: #c2262a;
+  color: #ffffff;
+  border-radius: 8%;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url(../assets/constructor_taladrando_pared.jpg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__titulo {
+  margin-top: 100px;
+  font-size: 5rem;
+  font-family: sans-serif;
+  color: #c2262a;
+  text-align: center;
+}
+
+.hero__subtitulo {
+  font-size: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5%;
+  color: #181111;
+}
+
+.videoTexto {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.videoTexto__texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+.videoTexto__texto:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.videoTexto__video {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.videoTexto__video:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer {
+  background-color: #031b2e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer__h3 {
+  color: #90a7ac;
+  font-size: 0.8rem;
+}
+
+.footer__contenedorLogo {
+  width: 15%;
+}
+
+.footer__logo {
+  width: 100%;
+}
+
+.footer__contenedorContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 12px;
+}
+
+.footer__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 12px;
+}
+
+.footer__contenedorListas {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__btnContacto {
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #c2262a;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 3px;
+  color: white;
+  font-size: 0.8rem;
+  -webkit-box-shadow: 0px 1px 0.5px black;
+          box-shadow: 0px 1px 0.5px black;
+}
+
+.footer__btnContacto:hover {
+  background-color: #ffffff;
+  color: #c2262a;
+}
+/*# sourceMappingURL=main.css.map */

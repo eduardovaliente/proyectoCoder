@@ -1,0 +1,57 @@
+.footer{
+    background-color: #031b2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    &__h3{
+        color: #90a7ac;
+        font-size: 0.8rem;
+    }
+
+    &__contenedorLogo{
+        width: 15%;
+    }
+
+    &__logo{
+        width: 100%;
+    }
+
+    &__contenedorContacto{
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    &__redes{
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    &__contenedorListas{
+        list-style: none;
+        display: inline-flex;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    &__btnContacto{
+        border-radius: 5px;
+        text-decoration: none;
+        background-color: #c2262a;
+        width: fit-content;
+        padding: 3px;
+        color: white;
+        font-size: 0.8rem;
+        box-shadow:0px 1px 0.5px black;
+
+        &:hover{
+            background-color:#ffffff;
+            color: #c2262a;
+        }
+    }
+}

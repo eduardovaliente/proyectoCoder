@@ -1,0 +1,27 @@
+.videoTexto{
+    padding: 20px;
+    display:flex;
+    column-gap: 30px;
+
+    &__texto{
+        display: flex;
+        color: black;
+        font-family: sans-serif;
+        text-align: center;
+        margin: auto;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    &__video{
+        align-self: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
