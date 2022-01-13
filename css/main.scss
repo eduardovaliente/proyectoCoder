@@ -1,10 +1,17 @@
+/* Reset */
 @import "./partials/reset";
+
+/* Components */
+@import "./partials/components";
+
 /* ---index--- */
 @import "./partials/header";
 @import "./partials/hero";
 @import "./partials/videoTexto";
 @import "./partials/footer";
 
+/* ---quienes somos--- */
+@import "./partials/quienesSomos";
 
 
 

@@ -1,8 +1,83 @@
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+/* Components */
+/* Tarjeta final */
+.tarjetaFinal {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500PX;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-shadow: 0px 0px 5px 1px black;
+          box-shadow: 0px 0px 5px 1px black;
+  margin-bottom: 15px;
+}
+
+.tarjetaFinal__img {
+  width: 170px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.tarjetaFinal__parrafo {
+  color: black;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+}
+
+.tarjetaFinal:hover {
+  background-color: #a79e9e9a;
+}
+
+/* Botones */
+.btn {
+  border-radius: 16px;
+  display: inline-block;
+  padding: 11px;
+  text-decoration: none;
+  color: white;
+  background-color: #c2262a;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-shadow: 0px 2px 1px #491515;
+          box-shadow: 0px 2px 1px #491515;
+  font-size: 1.3rem;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #c2262a;
+}
+
+.btn--videoTexto {
+  font-size: small;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.menosIndex {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 8px;
+  font-size: 1rem;
 }
 
 /* ---index--- */
@@ -54,26 +129,6 @@
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 5%;
   color: #181111;
-}
-
-.hero .btn {
-  border-radius: 16px;
-  display: inline-block;
-  padding: 11px;
-  text-decoration: none;
-  color: white;
-  background-color: #c2262a;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  -webkit-box-shadow: 0px 2px 1px #491515;
-          box-shadow: 0px 2px 1px #491515;
-  font-size: 1.3rem;
-}
-
-.hero .btn:hover {
-  background-color: #ffffff;
-  color: #c2262a;
 }
 
 .videoTexto {
@@ -212,5 +267,70 @@
 .footer__btnContacto:hover {
   background-color: #ffffff;
   color: #c2262a;
+}
+
+/* ---quienes somos--- */
+.mainQuienesSomos {
+  overflow: hidden;
+}
+
+.quienesSomos {
+  margin-bottom: 15px;
+  grid-area: quienesSomos;
+}
+
+.quienesSomos__divBanner {
+  height: 280px;
+  background-image: url(../assets/obreros_panel.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.quienesSomos__title {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #c2262a;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.quienesSomos__parrafo {
+  text-align: center;
+}
+
+.contenedorRow {
+  row-gap: 10px;
+}
+
+.iconosMisionVision {
+  width: 50px;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.misionVision__title {
+  text-align: center;
+}
+
+.misionVision__parrafo {
+  text-align: center;
+}
+
+.misionVision__divMision:hover {
+  -webkit-box-shadow: 0px 0px 5px 1px #517293;
+          box-shadow: 0px 0px 5px 1px #517293;
+  border-radius: 10px;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.misionVision__divVision:hover {
+  -webkit-box-shadow: 0px 0px 5px 1px #517293;
+          box-shadow: 0px 0px 5px 1px #517293;
+  border-radius: 10px;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 /*# sourceMappingURL=main.css.map */

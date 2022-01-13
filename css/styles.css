@@ -139,7 +139,7 @@
     overflow: hidden;
 }
 
-.header__quienesSomos{
+.header__quienesSomos{  /* chequear a que apunta */
     grid-area: nav;
 }
 
@@ -177,7 +177,7 @@
     align-self: center;
 }
 
-.hr{
+.hr{                        /* para _components */
     width: 200px;
     margin-left: auto;
     margin-right: auto;
@@ -193,7 +193,7 @@
     text-align: center;
 }
 
-.misionVision__divMision:hover{
+.misionVision__divMision:hover{                 /* para armar el conjunto de propiedades */
         box-shadow: 0px 0px 5px 1px #517293;
         border-radius: 10px;
         transform: translateY(-10px);
@@ -205,7 +205,7 @@
         transform: translateY(-10px);
     }
 
-.gridContainer__quienesSomos{
+.gridContainer__quienesSomos{                /* chequear si rompe */
     display: grid;
     grid-template-rows: auto auto auto auto auto;
     grid-template-areas: "nav"
@@ -239,7 +239,7 @@
     justify-content: center;
 }
 
-.carrusel{
+.carrusel{                  /* para _components */
     width: 70%;
     margin-bottom: 20px;
 }

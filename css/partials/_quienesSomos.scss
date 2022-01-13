@@ -1,0 +1,60 @@
+
+.mainQuienesSomos{
+    overflow: hidden;
+}
+
+.quienesSomos{
+    margin-bottom: 15px;
+    grid-area: quienesSomos;
+
+    &__divBanner{
+        height: 280px;
+        background-image:url(../assets/obreros_panel.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__title{
+        text-align: center;
+        margin-bottom: 30px;
+        background-color: #c2262a;
+        color: #ffffff;
+        padding-bottom: 10px;
+    }
+
+    &__parrafo{
+        text-align: center;  
+    }
+}
+
+.contenedorRow{
+    row-gap: 10px;
+}
+
+.iconosMisionVision{
+    width: 50px;
+    text-align: center;
+    align-self: center;
+}
+
+.misionVision__title{
+    text-align: center;
+}
+
+.misionVision__parrafo{
+    text-align: center;
+}
+
+.misionVision__divMision:hover{
+    box-shadow: 0px 0px 5px 1px #517293;
+    border-radius: 10px;
+    transform: translateY(-10px);
+}
+
+.misionVision__divVision:hover{
+    box-shadow: 0px 0px 5px 1px #517293;
+    border-radius: 10px;
+    transform: translateY(-10px);
+}
+
+

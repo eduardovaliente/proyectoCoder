@@ -1,0 +1,67 @@
+@import "./vars";
+
+/* Tarjeta final */
+
+.tarjetaFinal{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500PX;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 5px 1px black;
+    margin-bottom: 15px;
+
+    &__img{
+        width: 170px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    &__parrafo{
+        color: black;
+        align-self: center;
+        text-align: center;
+    }
+
+    &:hover{
+        background-color: #a79e9e9a;
+    }
+}
+
+/* Botones */
+
+.btn{
+    border-radius: 16px;
+    display: inline-block;
+    padding: 11px;
+    text-decoration: none;
+    color: white;
+    background-color: $bordo;
+    width: fit-content;
+    box-shadow: 0px 2px 1px rgb(73, 21, 21);
+    font-size: 1.3rem;
+
+        &:hover{
+            background-color:#ffffff;
+            color: $bordo;
+        } 
+}
+
+.btn--videoTexto{
+    font-size: small;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.menosIndex{
+    align-self: center;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+
+
+
+
+
