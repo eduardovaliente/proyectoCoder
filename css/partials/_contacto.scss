@@ -1,0 +1,36 @@
+@import "./vars";
+
+.contacto__divBanner{
+    height: 280px;
+    background-image:url(../assets/pc_cafe.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contacto__title{
+    color: white;
+    text-align: center;
+    background-color: $bordo;
+    padding-bottom: 10px;
+}
+
+.contacto__parrafo{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+}
+
+.contacto__formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: url(../assets/balizas.jpg);
+    background-size: cover;
+    padding-bottom: 15px;
+}
+
+.form-label{
+    color:#ffffff;
+}

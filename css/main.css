@@ -1,4 +1,4 @@
-/* Reset */
+/* reset */
 * {
   margin: 0;
   padding: 0;
@@ -78,6 +78,21 @@
       align-self: center;
   padding: 8px;
   font-size: 1rem;
+}
+
+/* carrusel */
+.carruselContenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carrusel {
+  width: 70%;
+  margin-bottom: 20px;
 }
 
 /* ---index--- */
@@ -332,5 +347,98 @@
   border-radius: 10px;
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
+}
+
+/* ---trabajos--- */
+.trabajos__divBanner {
+  height: 280px;
+  background-image: url(../assets/cubre_orejas.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.trabajos__title {
+  color: white;
+  text-align: center;
+  background-color: #c2262a;
+  padding-bottom: 10px;
+}
+
+/* ---clientes--- */
+.clientes__divBanner {
+  height: 280px;
+  background-image: url(../assets/obreros_calle.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.clientes__title {
+  color: white;
+  text-align: center;
+  background-color: #c2262a;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.pClientes__p {
+  text-align: center;
+}
+
+.containerClientes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.containerClientes__img--img {
+  width: 200px;
+}
+
+/* ---contacto--- */
+.contacto__divBanner {
+  height: 280px;
+  background-image: url(../assets/pc_cafe.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contacto__title {
+  color: white;
+  text-align: center;
+  background-color: #c2262a;
+  padding-bottom: 10px;
+}
+
+.contacto__parrafo {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 1.2rem;
+}
+
+.contacto__formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-image: url(../assets/balizas.jpg);
+  background-size: cover;
+  padding-bottom: 15px;
+}
+
+.form-label {
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
