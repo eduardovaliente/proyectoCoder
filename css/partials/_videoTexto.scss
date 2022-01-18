@@ -1,9 +1,16 @@
 @import "./vars";
+@import "./mixins";
 
 .videoTexto{
     padding: 20px;
     display:flex;
     column-gap: 30px;
+    @include responsive{
+        flex-direction: column;
+        row-gap: 30px;
+        height: auto;
+        align-items: center;
+    }
 
     &__texto{
         display: flex;
@@ -11,10 +18,6 @@
         font-family: sans-serif;
         text-align: center;
         margin: auto;
-
-        &:hover{
-            transform: scale(1.1);
-        }
     }
 
     &__video{

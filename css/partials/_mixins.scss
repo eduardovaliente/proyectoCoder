@@ -1,0 +1,17 @@
+@import "./vars";
+
+@mixin h1-tittles {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: $bordo;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+@mixin responsive {
+    @media screen and (max-width: 425px) {
+        @content;
+    }
+
+}

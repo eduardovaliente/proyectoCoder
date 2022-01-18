@@ -1,4 +1,5 @@
 @import "./vars";
+@import "./mixins";
 
 /* Tarjeta final */
 
@@ -11,6 +12,11 @@
     justify-content: space-evenly;
     box-shadow: 0px 0px 5px 1px black;
     margin-bottom: 15px;
+    @include responsive{
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
 
     &__img{
         width: 170px;
@@ -58,6 +64,20 @@
     align-self: center;
     padding: 8px;
     font-size: 1rem;
+    @include responsive{
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+}
+
+.btn--hero{
+    @include responsive{
+        margin-bottom: 20px;
+        align-self: center;
+        margin-left: 0px;
+        font-size: 0.8rem;
+        padding: 6px;
+    }
 }
 
 /* carrusel */
@@ -71,6 +91,10 @@
     width: 70%;
     margin-bottom: 20px;
 }
+
+
+
+
 
 
 

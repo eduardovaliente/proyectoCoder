@@ -1,3 +1,5 @@
+@import "./vars";
+@import "./mixins";
 
 .mainQuienesSomos{
     overflow: hidden;
@@ -8,18 +10,17 @@
     grid-area: quienesSomos;
 
     &__divBanner{
-        height: 280px;
+        height: 400px;
         background-image:url(../assets/obreros_panel.jpg);
         background-size: cover;
         background-position: center;
+        @include responsive{
+            height: 280px;
+        }
     }
 
     &__title{
-        text-align: center;
-        margin-bottom: 30px;
-        background-color: #c2262a;
-        color: #ffffff;
-        padding-bottom: 10px;
+        @include h1-tittles;
     }
 
     &__parrafo{
@@ -55,6 +56,12 @@
     box-shadow: 0px 0px 5px 1px #517293;
     border-radius: 10px;
     transform: translateY(-10px);
+}
+
+.misionVision{
+    @include responsive{
+        flex-direction: column;
+    }
 }
 
 

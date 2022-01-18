@@ -1,15 +1,16 @@
 @import "./vars";
+@import "./mixins";
 
 .trabajos__divBanner{
-    height: 280px;
+    height: 400px;
     background-image:url(../assets/cubre_orejas.jpg);
     background-size: cover;
     background-position: bottom;
+    @include responsive{
+        height: 280px;
+    }
 }
 
 .trabajos__title{
-    color: white;
-    text-align: center;
-    background-color: $bordo;
-    padding-bottom: 10px;
+    @include h1-tittles;
 }

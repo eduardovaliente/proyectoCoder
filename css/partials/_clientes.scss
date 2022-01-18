@@ -1,18 +1,18 @@
 @import "./vars";
+@import "./mixins";
 
 .clientes__divBanner{
-    height: 280px;
+    height: 400px;
     background-image:url(../assets/obreros_calle.jpg);
     background-size: cover;
     background-position: center;
+    @include responsive{
+        height: 280px;
+    }
 }
 
 .clientes__title{
-    color: white;
-    text-align: center;
-    background-color: $bordo;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
+    @include h1-tittles;
 }
 
 .pClientes__p{
@@ -26,8 +26,23 @@
     justify-items: center;
     align-items: center;
     margin-bottom: 15px;
+    @include responsive{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.containerClientes__img{
+    @include responsive{
+        height: 150px;
+        display: flex;
+        align-items: center;
+    }
 }
 
 .containerClientes__img--img{
     width: 200px;
+    @include responsive{
+        width: 150px;
+    }
 }

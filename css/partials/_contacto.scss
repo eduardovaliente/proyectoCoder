@@ -1,17 +1,18 @@
 @import "./vars";
+@import "./mixins";
 
 .contacto__divBanner{
-    height: 280px;
+    height: 400px;
     background-image:url(../assets/pc_cafe.jpg);
     background-size: cover;
     background-position: center;
+    @include responsive{
+        height: 280px;
+    }
 }
 
 .contacto__title{
-    color: white;
-    text-align: center;
-    background-color: $bordo;
-    padding-bottom: 10px;
+    @include h1-tittles;
 }
 
 .contacto__parrafo{
@@ -29,8 +30,16 @@
     background-image: url(../assets/balizas.jpg);
     background-size: cover;
     padding-bottom: 15px;
+    background-attachment: fixed;
 }
 
 .form-label{
     color:#ffffff;
+}
+
+.form--widht{
+    width: 60%;
+    @include responsive{
+        width: 90%;
+    }
 }
