@@ -486,16 +486,12 @@
   -webkit-box-shadow: 0px 0px 5px 1px #517293;
           box-shadow: 0px 0px 5px 1px #517293;
   border-radius: 10px;
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
 }
 
 .misionVision__divVision:hover {
   -webkit-box-shadow: 0px 0px 5px 1px #517293;
           box-shadow: 0px 0px 5px 1px #517293;
   border-radius: 10px;
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
 }
 
 .misionVision {

@@ -9,6 +9,8 @@
     <script src="https://kit.fontawesome.com/e7e19778f2.js" crossorigin="anonymous"></script>
     <link rel="icon" href="../assets/logo.ico.ico">
     <title>IMA | Conózcanos</title>
+    <!-- link AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- link BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
@@ -56,12 +58,12 @@
               <div class="container">
                 <div class="row contenedorRow">
                   <div class="misionVision__divMision col-md-6 d-flex flex-column">
-                      <img src="../assets/mision.PNG" alt="cohete" class="iconosMisionVision">
+                      <img src="../assets/mision.PNG" alt="cohete" class="iconosMisionVision" data-aos="zoom-in">
                       <h2 class="misionVision__title">Misión</h2>
                       <p class="misionVision__parrafo">Brindar soluciones a la medida de cada cliente, <br> cuidando cada proceso para garantizar óptimos resultados.</p>
                   </div>
                   <div class="misionVision__divVision col-md-6 d-flex flex-column">
-                      <img src="../assets/vision.PNG" alt="telescopio" class="iconosMisionVision">
+                      <img src="../assets/vision.PNG" alt="telescopio" class="iconosMisionVision" data-aos="zoom-in">
                       <h2 class="misionVision__title">Visión</h2>
                       <p class="misionVision__parrafo">Crecer mediante la actualización constante, <br> con un profundo sentido de compromiso y responsabilidad.</p>
                   </div>
@@ -69,7 +71,7 @@
               </div>
             </section>
             <div class="separadorCorto"></div>
-            <section class="tarjetaFinal">
+            <section class="tarjetaFinal" data-aos="flip-right">
                 <img class="tarjetaFinal__img" src="../assets/obrero_tenaza.jpg" alt="Trabajador con una herramienta">
                 <p class="tarjetaFinal__parrafo">¡Visite nuestras <br> galerías de trabajos!</p>
                 <a class="btn menosIndex" href="./trabajos.html">Trabajos</a>
@@ -95,6 +97,14 @@
             </div>
         </footer>
     </div>
+    <!-- js de AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 900,
+        delay: 50
+      });
+    </script>
     <!-- js de BS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
