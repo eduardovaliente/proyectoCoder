@@ -25,6 +25,7 @@
   -webkit-box-shadow: 0px 0px 5px 1px black;
           box-shadow: 0px 0px 5px 1px black;
   margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 @media screen and (max-width: 425px) {
@@ -123,8 +124,23 @@
 }
 
 .carrusel {
-  width: 70%;
+  width: 40%;
   margin-bottom: 20px;
+}
+
+/* Separadores */
+.separadorCorto, .separadorLargo {
+  height: 2.5px;
+  background-color: #031b2e4a;
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.separadorLargo {
+  width: 70%;
 }
 
 /* ---index--- */
@@ -164,6 +180,7 @@
   height: 100vh;
   background-image: url(../assets/constructor_taladrando_pared.jpg);
   background-size: cover;
+  background-attachment: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -303,6 +320,7 @@
   height: 150px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 15px;
 }
 
 @media screen and (max-width: 425px) {
@@ -424,9 +442,20 @@
   text-align: center;
   margin-bottom: 30px;
   background-color: #c2262a;
-  color: #ffffff;
+  font-size: 2.5rem;
+  color: #ffff;
   padding-bottom: 10px;
   margin-top: 50px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 425px) {
+  .quienesSomos__title {
+    font-size: calc(1.375rem + 1.5vw);
+  }
 }
 
 .quienesSomos__parrafo {
@@ -469,6 +498,11 @@
           transform: translateY(-10px);
 }
 
+.misionVision {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
 @media screen and (max-width: 425px) {
   .misionVision {
     -webkit-box-orient: vertical;
@@ -496,9 +530,20 @@
   text-align: center;
   margin-bottom: 30px;
   background-color: #c2262a;
-  color: #ffffff;
+  font-size: 2.5rem;
+  color: #ffff;
   padding-bottom: 10px;
   margin-top: 50px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 425px) {
+  .trabajos__title {
+    font-size: calc(1.375rem + 1.5vw);
+  }
 }
 
 /* ---clientes--- */
@@ -519,9 +564,20 @@
   text-align: center;
   margin-bottom: 30px;
   background-color: #c2262a;
-  color: #ffffff;
+  font-size: 2.5rem;
+  color: #ffff;
   padding-bottom: 10px;
   margin-top: 50px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 425px) {
+  .clientes__title {
+    font-size: calc(1.375rem + 1.5vw);
+  }
 }
 
 .pClientes__p {
@@ -594,9 +650,20 @@
   text-align: center;
   margin-bottom: 30px;
   background-color: #c2262a;
-  color: #ffffff;
+  font-size: 2.5rem;
+  color: #ffff;
   padding-bottom: 10px;
   margin-top: 50px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 425px) {
+  .contacto__title {
+    font-size: calc(1.375rem + 1.5vw);
+  }
 }
 
 .contacto__parrafo {

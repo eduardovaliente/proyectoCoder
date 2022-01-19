@@ -9,6 +9,7 @@
     height: 150px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 15px;
     @include responsive{
         flex-direction: column;
         height: auto;
