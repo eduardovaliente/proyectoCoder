@@ -198,6 +198,7 @@
   .hero {
     height: auto;
     row-gap: 15px;
+    background-image: url(../assets/constructor_taladrando_pared_recortada.jpg);
   }
 }
 
