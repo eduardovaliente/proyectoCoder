@@ -2,6 +2,15 @@
 @import "./mixins";
 @import "./mapas";
 
+/* H2 */
+
+.divh2__h2 {
+    @include h2;
+    @include responsive{
+        font-size: 1.1rem;
+    }
+}
+
 /* Tarjeta final */
 
 .tarjetaFinal{
@@ -90,8 +99,11 @@
 }
 
 .carrusel{                  
-    width: 40%;
+    width: 50%;
     margin-bottom: 20px;
+    @include responsive{
+        width: 90%;
+    }
 }
 
 /* Separadores */

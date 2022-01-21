@@ -7,6 +7,18 @@
 }
 
 /* Components */
+/* H2 */
+.divh2__h2 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 425px) {
+  .divh2__h2 {
+    font-size: 1.1rem;
+  }
+}
+
 /* Tarjeta final */
 .tarjetaFinal {
   margin-left: auto;
@@ -124,8 +136,14 @@
 }
 
 .carrusel {
-  width: 40%;
+  width: 50%;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .carrusel {
+    width: 90%;
+  }
 }
 
 /* Separadores */
@@ -168,6 +186,13 @@
 
 #nav__items {
   color: #c2262a;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 425px) {
+  #nav__items {
+    font-size: 1rem;
+  }
 }
 
 #nav__items:hover {
@@ -543,6 +568,21 @@
   }
 }
 
+.pDescripcionTrabajos {
+  margin-top: 50px;
+}
+
+.pDescripcionTrabajos__p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 425px) {
+  .pDescripcionTrabajos__p {
+    font-size: 1rem;
+  }
+}
+
 /* ---clientes--- */
 .clientes__divBanner {
   height: 400px;
@@ -575,10 +615,6 @@
   .clientes__title {
     font-size: calc(1.375rem + 1.5vw);
   }
-}
-
-.pClientes__p {
-  text-align: center;
 }
 
 .containerClientes {

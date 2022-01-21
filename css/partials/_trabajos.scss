@@ -14,3 +14,14 @@
 .trabajos__title{
     @include h1-tittles;
 }
+
+.pDescripcionTrabajos{
+    margin-top: 50px;
+    &__p{
+        text-align: center;
+        font-size: 1.2rem;
+        @include responsive{
+            font-size: 1rem;
+        }
+    }
+}

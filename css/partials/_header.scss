@@ -21,6 +21,10 @@
 
 #nav__items{
     color: $bordo;
+    font-size: 1.2rem;
+    @include responsive{
+        font-size: 1rem;
+    }
 
     &:hover{
         background-color: $bordo;
