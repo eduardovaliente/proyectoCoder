@@ -8,6 +8,24 @@
 
 /* Components */
 /* H2 */
+.divh2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .divh2__h2 {
   text-align: center;
   font-size: 1.3rem;
@@ -16,6 +34,26 @@
 @media screen and (max-width: 425px) {
   .divh2__h2 {
     font-size: 1.1rem;
+  }
+}
+
+.subrayado {
+  height: 3px;
+  background-color: #c2262a;
+  width: 20%;
+  border-radius: 20px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .subrayado {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-left: 0px;
+    width: 50%;
   }
 }
 
@@ -34,8 +72,8 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  -webkit-box-shadow: 0px 0px 5px 1px black;
-          box-shadow: 0px 0px 5px 1px black;
+  -webkit-box-shadow: 0px 0px 20px 1px black;
+          box-shadow: 0px 0px 20px 1px black;
   margin-bottom: 15px;
   margin-top: 15px;
 }
@@ -68,7 +106,7 @@
 }
 
 .tarjetaFinal:hover {
-  background-color: #a79e9e9a;
+  background-color: #ddd0d09a;
 }
 
 /* Botones */
@@ -198,7 +236,7 @@
 #nav__items:hover {
   background-color: #c2262a;
   color: #ffffff;
-  border-radius: 8%;
+  border-radius: 8px;
 }
 
 .hero {
@@ -221,7 +259,7 @@
 
 @media screen and (max-width: 425px) {
   .hero {
-    height: auto;
+    height: 350px;
     row-gap: 15px;
     background-image: url(../assets/constructor_taladrando_pared_recortada.jpg);
   }
@@ -231,7 +269,7 @@
   margin-top: 40px;
   font-size: 7rem;
   font-family: sans-serif;
-  color: white;
+  color: #c2262a;
   text-align: center;
 }
 
@@ -241,7 +279,7 @@
     padding-left: 0px;
     text-align: center;
     font-size: 2.7rem;
-    color: #ffffff;
+    color: #f8f9fa;
   }
 }
 
@@ -251,7 +289,7 @@
   width: -moz-fit-content;
   width: fit-content;
   background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 5%;
+  border-radius: 10px;
   color: #181111;
 }
 
@@ -502,6 +540,18 @@
 
 .misionVision__title {
   text-align: center;
+  margin-bottom: 0px;
+}
+
+.subrayadoMisionVision {
+  height: 2px;
+  background-color: #c2262a;
+  width: 10%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 0.5rem;
+  border-radius: 20px;
 }
 
 .misionVision__parrafo {
@@ -713,7 +763,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 15px;
+  margin-top: 40px;
   margin-bottom: 15px;
   background-image: url(../assets/balizas.jpg);
   background-size: cover;
