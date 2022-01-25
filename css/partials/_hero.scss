@@ -18,7 +18,7 @@
     
     &__titulo{
         font-size: 8rem;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        @include fuenteTitular;
         color: #f8f9fa;
         text-align: center;
         @include responsiveLaptop{
@@ -37,6 +37,7 @@
 
     &__subtitulo{
         font-size: 2rem;
+        @include fuenteTexto;
         width: fit-content;
         background-color: rgba(255, 255, 255, 0.3);
         border-radius: 10px;

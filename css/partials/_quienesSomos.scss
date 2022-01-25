@@ -20,10 +20,12 @@
     }
 
     &__title{
+        @include fuenteTitular;
         @include h1-tittles;
     }
 
     &__parrafo{
+        @include fuenteTexto;
         text-align: center;  
     }
 }
@@ -39,6 +41,7 @@
 }
 
 .misionVision__title{
+    @include fuenteTitular;
     text-align: center;
     margin-bottom: 0px;
 }
@@ -52,7 +55,16 @@
     border-radius: 20px;
 }
 
+.subrayadoHistoria{
+    @extend .subrayadoMisionVision;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+
+    }
+
 .misionVision__parrafo{
+    @include fuenteTexto;
     text-align: center;
 }
 
@@ -73,5 +85,51 @@
         flex-direction: column;
     }
 }
+
+.contenedorHistoria{
+    background-image: url(../assets/pared_ladrillos_blanca.jpg);
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: solid 3px #c7c7c7;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    @include responsiveTablet{
+        flex-direction: column;
+    }
+
+    &__contenedorH2p{
+        width: 50%;
+        align-self: center;
+        @include responsiveTablet{
+            width: 100%;
+        }
+    }
+
+    &__contenedorImg{
+        width: 50%;
+        @include responsiveTablet{
+            width: 100%;
+        }
+
+        &--img{
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 1px 1px 5px 2px;
+        }
+    }
+}
+
+
+
+
 
 

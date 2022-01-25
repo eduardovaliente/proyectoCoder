@@ -19,6 +19,7 @@
     }
 
     &__h3{
+        @include fuenteTitular;
         color: #90a7ac;
         font-size: 0.8rem;
     }

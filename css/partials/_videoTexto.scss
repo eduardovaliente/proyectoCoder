@@ -15,7 +15,7 @@
     &__texto{
         display: flex;
         color: black;
-        font-family: sans-serif;
+        @include fuenteTexto;
         text-align: center;
         margin: auto;
     }
@@ -31,6 +31,7 @@
     }
 
     .btn{
+        @include fuenteTitular;
         border-radius: 8px;
         display: inline-block;
         padding: 5px;

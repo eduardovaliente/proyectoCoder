@@ -39,3 +39,11 @@
         @content;
     }
 }
+
+@mixin fuenteTitular {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@mixin fuenteTexto {
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}

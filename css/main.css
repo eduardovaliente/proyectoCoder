@@ -27,6 +27,7 @@
 }
 
 .divh2__h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   font-size: 1.3rem;
 }
@@ -233,6 +234,7 @@
 #nav__items {
   color: #c2262a;
   font-size: 1.1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media screen and (max-width: 425px) {
@@ -303,6 +305,7 @@
 
 .hero__subtitulo {
   font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -356,7 +359,7 @@
   display: -ms-flexbox;
   display: flex;
   color: black;
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   margin: auto;
 }
@@ -375,6 +378,7 @@
 }
 
 .videoTexto .btn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 8px;
   display: inline-block;
   padding: 5px;
@@ -425,6 +429,7 @@
 }
 
 .footer__h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #90a7ac;
   font-size: 0.8rem;
 }
@@ -527,6 +532,7 @@
 }
 
 .quienesSomos__title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   margin-bottom: 30px;
   background-color: #c2262a;
@@ -547,6 +553,7 @@
 }
 
 .quienesSomos__parrafo {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
 }
 
@@ -563,11 +570,12 @@
 }
 
 .misionVision__title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   margin-bottom: 0px;
 }
 
-.subrayadoMisionVision {
+.subrayadoMisionVision, .subrayadoHistoria {
   height: 2px;
   background-color: #c2262a;
   width: 10%;
@@ -578,7 +586,14 @@
   border-radius: 20px;
 }
 
+.subrayadoHistoria {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
 .misionVision__parrafo {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
 }
 
@@ -608,6 +623,67 @@
   }
 }
 
+.contenedorHistoria {
+  background-image: url(../assets/pared_ladrillos_blanca.jpg);
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border: solid 3px #c7c7c7;
+  border-radius: 20px;
+  padding: 10px 10px;
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedorHistoria {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.contenedorHistoria__contenedorH2p {
+  width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedorHistoria__contenedorH2p {
+    width: 100%;
+  }
+}
+
+.contenedorHistoria__contenedorImg {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedorHistoria__contenedorImg {
+    width: 100%;
+  }
+}
+
+.contenedorHistoria__contenedorImg--img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 5px 2px;
+          box-shadow: 1px 1px 5px 2px;
+}
+
 /* ---trabajos--- */
 .trabajos__divBanner {
   height: 400px;
@@ -623,6 +699,7 @@
 }
 
 .trabajos__title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   margin-bottom: 30px;
   background-color: #c2262a;
@@ -647,6 +724,7 @@
 }
 
 .pDescripcionTrabajos__p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   font-size: 1.2rem;
 }
@@ -672,6 +750,7 @@
 }
 
 .clientes__title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   margin-bottom: 30px;
   background-color: #c2262a;
@@ -692,6 +771,10 @@
 }
 
 .containerClientes {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: auto auto auto;
@@ -702,6 +785,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 20px;
   margin-bottom: 15px;
 }
 

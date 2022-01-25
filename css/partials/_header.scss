@@ -1,4 +1,5 @@
 @import "./vars";
+@import "./mixins";
 
 .index--widht{
     width: 50%;
@@ -22,6 +23,7 @@
 #nav__items{
     color: $bordo;
     font-size: 1.1rem;
+    @include fuenteTitular;
     @include responsive{
         font-size: 1rem;
     }
