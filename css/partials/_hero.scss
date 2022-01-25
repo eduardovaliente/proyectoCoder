@@ -3,7 +3,7 @@
 
 .hero{
     height: 82vh;
-    background-image:url(../assets/constructor_taladrando_pared_recortada1.jpg); 
+    background-image:url(../assets/constructor_taladrando_pared_recortada1.JPG); 
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -13,7 +13,6 @@
     @include responsiveTablet{
         height: 50vh;
         row-gap: 15px;
-        background-image: url(../assets/constructor_taladrando_pared_recortada1.jpg);
     }
     
     &__titulo{

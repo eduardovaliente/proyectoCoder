@@ -251,7 +251,7 @@
 
 .hero {
   height: 82vh;
-  background-image: url(../assets/constructor_taladrando_pared_recortada1.jpg);
+  background-image: url(../assets/constructor_taladrando_pared_recortada1.JPG);
   background-size: cover;
   background-attachment: fixed;
   display: -webkit-box;
@@ -271,7 +271,6 @@
   .hero {
     height: 50vh;
     row-gap: 15px;
-    background-image: url(../assets/constructor_taladrando_pared_recortada1.jpg);
   }
 }
 
@@ -624,7 +623,7 @@
 }
 
 .contenedorHistoria {
-  background-image: url(../assets/pared_ladrillos_blanca.jpg);
+  background-image: url(../assets/pared_ladrillos_blanca.JPG);
   background-attachment: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
