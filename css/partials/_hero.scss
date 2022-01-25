@@ -2,32 +2,37 @@
 @import "./mixins";
 
 .hero{
-    height: 100vh;
-    background-image:url(../assets/constructor_taladrando_pared.jpg); 
+    height: 82vh;
+    background-image:url(../assets/constructor_taladrando_pared_recortada1.jpg); 
     background-size: cover;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
     align-items: center;
-    @include responsive{
-        height: 350px;
+    @include responsiveTablet{
+        height: 50vh;
         row-gap: 15px;
-        background-image: url(../assets/constructor_taladrando_pared_recortada.jpg);
+        background-image: url(../assets/constructor_taladrando_pared_recortada1.jpg);
     }
     
     &__titulo{
-        margin-top: 40px;
-        font-size: 7rem;
-        font-family: sans-serif;
-        color: $bordo;
+        margin-top: 20px;
+        font-size: 8rem;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: #f8f9fa;
         text-align: center;
+        @include responsiveLaptop{
+            font-size: 6rem;
+        }
+        @include responsiveTablet{
+            font-size: 3rem;
+        }
         @include responsive{
             margin-top: 30px;
             padding-left: 0px;
             text-align: center;
             font-size: 2.7rem;
-            color: #f8f9fa;
         }
     }
 
@@ -37,6 +42,9 @@
         background-color: rgba(255, 255, 255, 0.3);
         border-radius: 10px;
         color: rgb(24, 17, 17);
+        @include responsiveTablet{
+            font-size: 1.5rem;
+        }
         @include responsive{
             align-self: center;
             margin-left: 0px;

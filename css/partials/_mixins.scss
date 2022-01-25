@@ -26,5 +26,16 @@
     @media screen and (max-width: 425px) {
         @content;
     }
+}
 
+@mixin responsiveTablet {
+    @media screen and (max-width: 768px) {
+        @content;        
+    }
+}
+
+@mixin responsiveLaptop {
+    @media screen and (max-width: 1024px) {
+        @content;
+    }
 }
