@@ -38,7 +38,7 @@
 }
 
 .subrayado {
-  height: 3px;
+  height: 4px;
   background-color: #c2262a;
   width: 20%;
   border-radius: 20px;
@@ -53,6 +53,7 @@
         -ms-grid-row-align: center;
         align-self: center;
     margin-left: 0px;
+    height: 3px;
     width: 50%;
   }
 }

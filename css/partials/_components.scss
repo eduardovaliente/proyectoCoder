@@ -21,7 +21,7 @@
 }
 
 .subrayado{
-    height: 3px;
+    height: 4px;
     background-color: $bordo;
     width: 20%;
     border-radius: 20px;
@@ -30,6 +30,7 @@
     @include responsive{
         align-self: center;
         margin-left: 0px;
+        height: 3px;
         width: 50%;
     }
 }
