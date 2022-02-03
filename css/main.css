@@ -365,6 +365,7 @@
 
 .videoTexto__contenedorImg--img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .videoTexto .btn {
