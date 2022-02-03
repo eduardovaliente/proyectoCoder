@@ -20,14 +20,8 @@
         margin: auto;
     }
 
-    &__video{
-        align-self: center;
-        margin-bottom: 10px;
-        margin-top: 10px;
-
-        &:hover{
-            transform: scale(1.1);
-        }
+    &__contenedorImg--img{
+        width: 100%;
     }
 
     .btn{
@@ -47,5 +41,19 @@
                 color: $bordo;
                 }
         }
+
+    .bienvenidos__contenedor{
+        display: flex;
+        flex-direction: column;
+    }
     
+    .h2bienvenidos{
+        margin-bottom: 0px;
+    }
+
+    .rowVideoTexto--gap{
+        row-gap: 15px;
+        align-items: center;
+    }
+
 }

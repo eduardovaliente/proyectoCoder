@@ -363,17 +363,8 @@
   margin: auto;
 }
 
-.videoTexto__video {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.videoTexto__video:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+.videoTexto__contenedorImg--img {
+  width: 100%;
 }
 
 .videoTexto .btn {
@@ -395,6 +386,27 @@
 .videoTexto .btn:hover {
   background-color: #ffffff;
   color: #c2262a;
+}
+
+.videoTexto .bienvenidos__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.videoTexto .h2bienvenidos {
+  margin-bottom: 0px;
+}
+
+.videoTexto .rowVideoTexto--gap {
+  row-gap: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer {
