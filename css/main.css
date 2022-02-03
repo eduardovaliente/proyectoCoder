@@ -892,6 +892,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-top: 50px;
   margin-top: 40px;
   margin-bottom: 15px;
   background-image: url(../assets/balizas.jpg);
@@ -900,17 +901,16 @@
   background-attachment: fixed;
 }
 
-.form-label {
-  color: #ffffff;
+/*  Para formulario de Bootstrap
+.form-label{
+    color:#ffffff;
 }
 
-.form--widht {
-  width: 60%;
+.form--widht{
+    width: 60%;
+    @include responsive{
+        width: 90%;
+    }
 }
-
-@media screen and (max-width: 425px) {
-  .form--widht {
-    width: 90%;
-  }
-}
+*/
 /*# sourceMappingURL=main.css.map */
