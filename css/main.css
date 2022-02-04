@@ -27,7 +27,7 @@
 }
 
 .divh2__h2 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 1.3rem;
 }
@@ -234,7 +234,7 @@
 #nav__items {
   color: #c2262a;
   font-size: 1.1rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width: 425px) {
@@ -276,7 +276,7 @@
 
 .hero__titulo {
   font-size: 8rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #f8f9fa;
   text-align: center;
 }
@@ -304,7 +304,7 @@
 
 .hero__subtitulo {
   font-size: 2rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Roboto', sans-serif;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -358,7 +358,7 @@
   display: -ms-flexbox;
   display: flex;
   color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   margin: auto;
 }
@@ -369,7 +369,7 @@
 }
 
 .videoTexto .btn {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Roboto', sans-serif;
   border-radius: 8px;
   display: inline-block;
   padding: 5px;
@@ -442,7 +442,7 @@
 }
 
 .footer__h3 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #90a7ac;
   font-size: 0.8rem;
 }
@@ -545,7 +545,7 @@
 }
 
 .quienesSomos__title {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   margin-bottom: 30px;
   background-color: #c2262a;
@@ -566,7 +566,7 @@
 }
 
 .quienesSomos__parrafo {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
@@ -583,7 +583,7 @@
 }
 
 .misionVision__title {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   margin-bottom: 0px;
 }
@@ -606,7 +606,7 @@
 }
 
 .misionVision__parrafo, .historia__parrafo {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
@@ -722,7 +722,7 @@
 }
 
 .trabajos__title {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   margin-bottom: 30px;
   background-color: #c2262a;
@@ -747,7 +747,7 @@
 }
 
 .pDescripcionTrabajos__p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 1.2rem;
 }
@@ -773,7 +773,7 @@
 }
 
 .clientes__title {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   margin-bottom: 30px;
   background-color: #c2262a;
