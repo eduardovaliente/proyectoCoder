@@ -20,6 +20,7 @@
         @include fuenteTitular;
         color: #f8f9fa;
         text-align: center;
+        text-shadow: 4px 4px 10px #322a2a;
         @include responsiveLaptop{
             font-size: 6rem;
         }

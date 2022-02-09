@@ -1,0 +1,23 @@
+@import "./vars";
+@import "./mixins";
+
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 11px;
+    left: 11px;
+    border-radius: 50px;
+    background: $bordo;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 0px 9px #584e4e;
+    z-index: 100;
+
+    &:hover{
+        color: $bordo;
+        background: white;
+    }
+}

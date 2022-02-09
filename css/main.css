@@ -208,6 +208,29 @@
   width: 70%;
 }
 
+/* Whatsapp flotante */
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 11px;
+  left: 11px;
+  border-radius: 50px;
+  background: #c2262a;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 0px 0px 9px #584e4e;
+          box-shadow: 0px 0px 9px #584e4e;
+  z-index: 100;
+}
+
+.btn-wsp:hover {
+  color: #c2262a;
+  background: white;
+}
+
 /* ---index--- */
 .index--widht {
   width: 50%;
@@ -279,6 +302,7 @@
   font-family: 'Roboto', sans-serif;
   color: #f8f9fa;
   text-align: center;
+  text-shadow: 4px 4px 10px #322a2a;
 }
 
 @media screen and (max-width: 1024px) {
