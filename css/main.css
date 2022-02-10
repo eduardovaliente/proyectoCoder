@@ -673,8 +673,7 @@
   padding-right: 15px;
   margin-top: 60px;
   margin-bottom: 60px;
-  border: solid 3px #c7c7c7;
-  border-radius: 20px;
+  border-radius: 5px;
   padding: 10px 10px;
   width: 97%;
   margin-left: auto;
@@ -780,6 +779,10 @@
   .pDescripcionTrabajos__p {
     font-size: 1rem;
   }
+}
+
+.carrusel--border {
+  border-radius: 10px;
 }
 
 /* ---clientes--- */
