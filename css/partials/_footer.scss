@@ -43,15 +43,7 @@
 
     &__redes{
         display: flex;
-        flex-direction: column;
-        row-gap: 12px;
-    }
-
-    &__contenedorListas{
-        list-style: none;
-        display: inline-flex;
-        gap: 5px;
-        justify-content: center;
+        height: 85%;
     }
 
     &__btnContacto{
